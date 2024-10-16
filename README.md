@@ -22,7 +22,11 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-TODO: Write usage instructions here
+To add a [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1 to your project, use the following at the command line:
+
+    way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+
+You will need to enter a contact method, usually an email address. Please thoroughly read the [enforcement guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines) section of the code and discuss the implications of adopting the code of conduct.
 
 ## Development
 
