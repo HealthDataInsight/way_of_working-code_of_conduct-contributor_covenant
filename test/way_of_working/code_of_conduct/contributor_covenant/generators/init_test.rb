@@ -30,10 +30,12 @@ module WayOfWorking
               assert_match('## Our Pledge', content)
               refute_match('[INSERT CONTACT METHOD]', content)
             end
+            assert_file 'docs/way_of_working/code-of-conduct.md'
 
             run_generator %w[--contact-method foo@bar.com], behavior: :revoke
 
             assert_no_file code_of_conduct_file
+            assert_no_file 'docs/way_of_working/code-of-conduct.md'
           end
         end
       end

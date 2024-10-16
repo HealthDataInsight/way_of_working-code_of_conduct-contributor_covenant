@@ -27,6 +27,10 @@ module WayOfWorking
           def add_code_of_conduct_to_project
             template 'CODE_OF_CONDUCT.md'
           end
+
+          def add_way_of_working_documentation
+            copy_file 'docs/way_of_working/code-of-conduct.md'
+          end
         end
       end
     end
