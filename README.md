@@ -1,8 +1,8 @@
 # WayOfWorking::CodeOfConduct::ContributorCovenant
 
-TODO: Delete this and the text below, and describe your gem
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working-code_of_conduct-contributor_covenant`. To experiment with that code, run `bin/console` for an interactive prompt.
+Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved. The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour.
 
 ## Installation
 
