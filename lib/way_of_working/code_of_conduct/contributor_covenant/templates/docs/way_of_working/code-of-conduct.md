@@ -25,7 +25,9 @@ Please thoroughly read the [enforcement guidelines](https://www.contributor-cove
 
 To add a [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1 to your project, use the following at the command line:
 
-    way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+```bash
+way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+```
 
 You will need to enter a contact method, usually an email address.
 
