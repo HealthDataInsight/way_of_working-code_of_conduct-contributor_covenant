@@ -24,7 +24,9 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 To add a [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1 to your project, use the following at the command line:
 
-    way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+```bash
+way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+```
 
 You will need to enter a contact method, usually an email address. Please thoroughly read the [enforcement guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines) section of the code and discuss the implications of adopting the code of conduct.
 
@@ -36,7 +38,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at <https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant>.
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 

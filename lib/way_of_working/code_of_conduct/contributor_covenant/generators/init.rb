@@ -21,7 +21,7 @@ module WayOfWorking
           #   get 'https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md',
           #       code_of_conduct_file
           #   gsub_file code_of_conduct_file, '[INSERT CONTACT METHOD]',
-          #             "<%= options['contact_method'] %>"
+          #             "<<%= options['contact_method'] %>>"
           # end
 
           def add_code_of_conduct_to_project
