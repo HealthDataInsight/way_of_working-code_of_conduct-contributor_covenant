@@ -5,6 +5,7 @@ require_relative 'contributor_covenant/paths'
 require 'zeitwerk'
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::CodeOfConduct)
+loader.ignore("#{__dir__}/contributor_covenant/plugin.rb")
 loader.setup
 
 module WayOfWorking
