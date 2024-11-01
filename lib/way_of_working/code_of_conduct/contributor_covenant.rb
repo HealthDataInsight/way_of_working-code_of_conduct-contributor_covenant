@@ -4,6 +4,14 @@ require 'way_of_working'
 require_relative 'contributor_covenant/paths'
 require 'zeitwerk'
 
+# If way_of_working-audit-github is used we can add a rule
+begin
+  require 'way_of_working/audit/github/rules/registry'
+  require_relative 'contributor_covenant/github_audit_rule'
+rescue LoadError
+  false
+end
+
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::CodeOfConduct)
 loader.ignore("#{__dir__}/contributor_covenant/plugin.rb")
 loader.setup
