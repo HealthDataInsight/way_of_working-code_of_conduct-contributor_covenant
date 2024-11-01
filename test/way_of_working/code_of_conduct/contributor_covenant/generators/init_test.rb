@@ -7,7 +7,7 @@ module WayOfWorking
         # This class tests the CodeOfConduct::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
           tests WayOfWorking::CodeOfConduct::ContributorCovenant::Generators::Init
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::CodeOfConduct::ContributorCovenant.root.join('tmp/generators')
           setup :prepare_destination
 
           test 'generator requires contact-method option' do
