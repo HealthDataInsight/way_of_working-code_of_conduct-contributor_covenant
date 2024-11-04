@@ -8,10 +8,8 @@ module WayOfWorking
     module ContributorCovenant
       # This rule checks for the MegaLinter workflow action and README badge.
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
-        def valid?
+        def validate
           @errors << 'No Contributor Covenant code of conduct found' unless code_of_conduct?
-
-          @errors.empty? ? :passed : :failed
         end
 
         private

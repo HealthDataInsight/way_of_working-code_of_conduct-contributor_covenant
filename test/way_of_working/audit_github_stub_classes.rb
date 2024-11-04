@@ -21,7 +21,11 @@ module WayOfWorking
           end
 
           def status
-            @status ||= valid?
+            @status ||= begin
+              validate
+
+              @errors.empty? ? :passed : :failed
+            end
           end
 
           def self.tags

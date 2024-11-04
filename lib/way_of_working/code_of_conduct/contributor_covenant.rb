@@ -8,8 +8,7 @@ require 'zeitwerk'
 begin
   require 'way_of_working/audit/github/rules/registry'
   require_relative 'contributor_covenant/github_audit_rule'
-rescue LoadError
-  false
+rescue LoadError # rubocop:disable Lint/SuppressedException
 end
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::CodeOfConduct)
