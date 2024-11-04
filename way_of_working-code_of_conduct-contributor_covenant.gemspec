@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Tim Gentry']
   spec.email = ['52189+timgentry@users.noreply.github.com']
 
-  spec.summary = 'TODO: Way of Working plugin for code of conduct using contributor covenant'
+  spec.summary = 'Way of Working plugin for the Contributor Covenant Code of Conduct'
   spec.homepage = 'https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.1.0'

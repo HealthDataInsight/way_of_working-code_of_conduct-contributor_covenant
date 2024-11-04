@@ -9,4 +9,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial release
+- Moved the generator out of way_of_working v1 into this plugin
+- Added a Github audit rule to check for the changelog
