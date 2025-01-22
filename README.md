@@ -1,5 +1,10 @@
 # WayOfWorking::CodeOfConduct::ContributorCovenant
 
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
 
 Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved. The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour.
