@@ -5,24 +5,24 @@
 <!-- Way of Working: Additional Badge Holder Start -->
 <!-- Way of Working: Badge Holder End -->
 
+[![Gem Version](https://badge.fury.io/rb/way_of_working-code_of_conduct-contributor_covenant.svg)](https://badge.fury.io/rb/way_of_working-code_of_conduct-contributor_covenant)
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
 
 Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved. The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add way_of_working-code_of_conduct-contributor_covenant
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install way_of_working-code_of_conduct-contributor_covenant
 ```
 
 ## Usage
