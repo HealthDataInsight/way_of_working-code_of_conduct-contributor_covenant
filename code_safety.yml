@@ -1,0 +1,146 @@
+---
+file safety:
+  ".alexignore":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  ".alexrc":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  ".github/linters/.markdown-link-check.json":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  ".github/linters/rubocop_defaults.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  ".github/workflows/inclusive-language.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  ".github/workflows/main.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  ".github/workflows/mega-linter.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  ".gitignore":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  ".mega-linter.yml":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  ".rubocop":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  CHANGELOG.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  CODE_OF_CONDUCT.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  Gemfile:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  Gemfile.lock:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  LICENSE.txt:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  README.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  Rakefile:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  bin/console:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  bin/setup:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  docs/way_of_working/code-of-conduct.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  docs/way_of_working/inclusive-language.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/generators/init.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/github_audit_rule.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/paths.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  lib/way_of_working/code_of_conduct/contributor_covenant/plugin.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/templates/CODE_OF_CONDUCT.md.tt:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/templates/docs/way_of_working/code-of-conduct.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  lib/way_of_working/code_of_conduct/contributor_covenant/version.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  test/test_helper.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  test/way_of_working/audit_github_stub_classes.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  test/way_of_working/code_of_conduct/contributor_covenant/generators/init_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  test/way_of_working/code_of_conduct/contributor_covenant/github_audit_rule_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  test/way_of_working/code_of_conduct/contributor_covenant/zeitwerk_loader_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+  test/way_of_working/code_of_conduct/contributor_covenant_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
+  way_of_working-code_of_conduct-contributor_covenant.gemspec:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
