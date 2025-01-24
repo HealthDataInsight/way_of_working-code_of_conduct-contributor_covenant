@@ -1,8 +1,13 @@
 # WayOfWorking::CodeOfConduct::ContributorCovenant
 
-TODO: Delete this and the text below, and describe your gem
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working-code_of_conduct-contributor_covenant`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
+
+Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved. The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour.
 
 ## Installation
 
@@ -22,7 +27,13 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 ## Usage
 
-TODO: Write usage instructions here
+To add a [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1 to your project, use the following at the command line:
+
+```bash
+way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
+```
+
+You will need to enter a contact method, usually an email address. Please thoroughly read the [enforcement guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines) section of the code and discuss the implications of adopting the code of conduct.
 
 ## Development
 
@@ -32,7 +43,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at <https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant>.
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/HealthDataInsight/way_of_working-code_of_conduct-contributor_covenant/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
