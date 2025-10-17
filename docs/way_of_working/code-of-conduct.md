@@ -1,35 +1,78 @@
 ---
 layout: page
+status: REQUIRED
+enforcement: manual
 ---
 # Code of Conduct
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](../../CODE_OF_CONDUCT.md)
+## Purpose
 
-We have adopted the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
-
-Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved.
-The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour. By adhering to these guidelines, community members can build trust and mutual respect, which fosters a more collaborative and productive environment.
-
-The Contributor Covenant is specifically designed to promote diversity and inclusion within communities and projects. It includes provisions to prevent discrimination and harassment based on factors such as race, gender, sexual orientation, and ability. By adopting and enforcing the Code of Conduct, communities can create a more welcoming and supportive environment for underrepresented groups.
-
-In addition to promoting a positive and inclusive environment, the Contributor Covenant can help prevent conflicts and misunderstandings by providing a clear set of expectations for behaviour, reducing the likelihood of interpersonal conflicts and creating a more harmonious community.
-Projects and communities can establish a strong foundation for healthy collaboration and growth using the Contributor Covenant Code of Conduct.
+We adopt the [Contributor Covenant v2.1][covenant] to establish clear behavioural expectations, create safe inclusive environments, prevent discrimination/harassment, and reduce conflicts.
 
 {: .important }
-Adopting the Contributor Covenant Code of Conduct involves more than only adding a `CODE_OF_CONDUCT.md` file to the root of your project.
-Please thoroughly read the [enforcement guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines) section of the code and discuss the implications of adopting the code of conduct with your team.
+Adoption requires more than adding `CODE_OF_CONDUCT.md`. Please read the [enforcement guidelines][enforcement] and discuss with your team.
 
-## Usage
+## Scope
 
-### Adding the Code of Conduct to your project
+Applies to all project spaces and community interactions.
 
-To add a [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1 to your project, use the following at the command line:
+**Promotes:** Respectful communication, collaboration, inclusive language, professional conduct
+
+**Prevents:** Discrimination, harassment, unprofessional behaviour
+
+## Requirements
+
+1. Contact method for reports (email address)
+2. Enforcement responsibilities and process
+3. Consequences framework
+
+{: .note }
+Use HDI Code of Conduct email address as contact method.
+
+## Setup
 
 ```bash
 way_of_working init code_of_conduct --contact-method [CONTACT METHOD]
 ```
 
-You will need to enter a contact method, usually an email address.
+## Usage
 
-{: .note }
-We recommend that you use the HDI code of conduct email address as the contact method.
+Command creates `CODE_OF_CONDUCT.md` in repository root.
+
+**Post-setup:**
+
+1. Review enforcement guidelines with team
+2. Assign enforcement responsibilities
+3. Communicate adoption to contributors
+4. Link from README and CONTRIBUTING
+
+**Enforcement process:**
+Report → Review → Investigate → Apply consequence → Document
+
+## Enforcement
+
+**Consequences:**
+
+- **Warning:** First offense, minor issue
+- **Temporary ban:** Sustained inappropriate behavior
+- **Permanent ban:** Severe violations or repeat offenses
+
+**Requirements:**
+
+- Consistent enforcement by leadership
+- Confidential handling, 5-day response
+- Document incidents, annual review
+
+## Examples
+
+**Acceptable:** Welcoming language, respect differing views, accept criticism, focus on community benefit
+
+**Unacceptable:** Sexualized content, trolling/insults, harassment, publishing private info, unprofessional conduct
+
+## Resources
+
+- [Contributor Covenant v2.1][covenant]
+- [Enforcement Guidelines][enforcement]
+
+[covenant]: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
+[enforcement]: https://www.contributor-covenant.org/version/2/1/code_of_conduct/#enforcement-guidelines
