@@ -1,4 +1,3 @@
-<!--alex disable sex sexual-->
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

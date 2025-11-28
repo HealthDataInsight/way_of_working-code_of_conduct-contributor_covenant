@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Updated GitHub rule signatures
+- Removed Zeitwerk ignore to make it happier
+- Removed unnecessary inline alex ignores
+
 ## Fixed
 
 - The documentation is now LLM-friendly

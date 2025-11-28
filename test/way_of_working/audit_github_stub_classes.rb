@@ -9,22 +9,28 @@ module WayOfWorking
         # This is a simplified version of the base class for GitHub audit rules
         class Base
           attr_accessor :errors, :name, :rulesets, :warnings
+          attr_reader :fix
 
-          def initialize(client, name, repo, rulesets)
+          def initialize(client, name, repo, rulesets, fix = false)
             @client = client
             @name = name
             @repo = repo
             @repo_name = repo.full_name
             @rulesets = rulesets
+            @fix = fix
             @errors = []
             @warnings = []
           end
 
           def status
             @status ||= begin
-              validate
+              result = validate
 
-              @errors.empty? ? :passed : :failed
+              if result == :not_applicable
+                result
+              else
+                @errors.empty? ? :passed : :failed
+              end
             end
           end
 
@@ -54,17 +60,17 @@ module WayOfWorking
               end
             end
 
-            def rule(rule_name, client, repo)
+            def rule(rule_name, *args)
               klass = Registry.rules.fetch(rule_name, Unknown)
 
-              klass.new(client, repo)
+              klass.new(*args)
             end
           end
         end
 
         # This is a stub handler for rules that aren't in the registry.
         class Unknown < Base
-          def initialize(client, repo_name)
+          def initialize(*)
             super
             raise 'Error: Unknown client'
           end
