@@ -46,8 +46,8 @@ file safety:
     safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
   CODE_OF_CONDUCT.md:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
   Gemfile:
     comments:
     reviewed_by: shilpigoeldev
@@ -62,8 +62,8 @@ file safety:
     safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
   README.md:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: 1f964cc18e527a7354fd4a9a4911bd5e8d862cf1
   Rakefile:
     comments:
     reviewed_by: shilpigoeldev
@@ -78,16 +78,16 @@ file safety:
     safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
   docs/way_of_working/code-of-conduct.md:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '03587db522e42ce5d2320ca6faf2e7d72fe80a95'
   docs/way_of_working/inclusive-language.md:
     comments:
     reviewed_by: shilpigoeldev
     safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
   lib/way_of_working/code_of_conduct/contributor_covenant.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
   lib/way_of_working/code_of_conduct/contributor_covenant/generators/init.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -102,16 +102,16 @@ file safety:
     safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
   lib/way_of_working/code_of_conduct/contributor_covenant/plugin.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
   lib/way_of_working/code_of_conduct/contributor_covenant/templates/CODE_OF_CONDUCT.md.tt:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
   lib/way_of_working/code_of_conduct/contributor_covenant/templates/docs/way_of_working/code-of-conduct.md:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '03587db522e42ce5d2320ca6faf2e7d72fe80a95'
   lib/way_of_working/code_of_conduct/contributor_covenant/version.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -122,8 +122,8 @@ file safety:
     safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
   test/way_of_working/audit_github_stub_classes.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
   test/way_of_working/code_of_conduct/contributor_covenant/generators/init_test.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -142,5 +142,5 @@ file safety:
     safe_revision: 7a8b71cc6fbe856d7e5b445b4b0de9b7a8a4f82d
   way_of_working-code_of_conduct-contributor_covenant.gemspec:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    reviewed_by: timgentry
+    safe_revision: '08b322b4214e38cbce371b73463453628acd09b9'
