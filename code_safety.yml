@@ -43,7 +43,7 @@ file safety:
   CHANGELOG.md:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    safe_revision: 403530a11025f185fe3d5675af93126bf0374789
   CODE_OF_CONDUCT.md:
     comments:
     reviewed_by: timgentry
@@ -55,7 +55,7 @@ file safety:
   Gemfile.lock:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    safe_revision: 403530a11025f185fe3d5675af93126bf0374789
   LICENSE.txt:
     comments:
     reviewed_by: shilpigoeldev
@@ -115,7 +115,7 @@ file safety:
   lib/way_of_working/code_of_conduct/contributor_covenant/version.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: b2c63ee5cf0f603c0a71813a04946323cc8c37a8
+    safe_revision: 403530a11025f185fe3d5675af93126bf0374789
   test/test_helper.rb:
     comments:
     reviewed_by: shilpigoeldev
