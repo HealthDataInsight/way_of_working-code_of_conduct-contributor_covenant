@@ -7,6 +7,17 @@
 
 [![Gem Version](https://badge.fury.io/rb/way_of_working-code_of_conduct-contributor_covenant.svg)](https://badge.fury.io/rb/way_of_working-code_of_conduct-contributor_covenant)
 
+> [!IMPORTANT]
+> **This repository has been archived.**
+>
+> The Code of Conduct (Contributor Covenant) feature has been merged into the main [`way_of_working`](https://github.com/HealthDataInsight/way_of_working) gem, where it is now a built-in, opt-in feature. Enable it by requiring it:
+>
+> ```ruby
+> require 'way_of_working/code_of_conduct/contributor_covenant'
+> ```
+>
+> Then use `way_of_working init code_of_conduct --contact-method [CONTACT METHOD]` as before. This repository is no longer maintained.
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) Code of Conduct v2.1
 
 Using the Contributor Covenant Code of Conduct benefits any community or project by setting clear expectations for acceptable behaviour and creating a safer and more inclusive environment for everyone involved. The Code of Conduct establishes guidelines for respectful communication and conduct and consequences for inappropriate behaviour.
